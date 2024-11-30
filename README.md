@@ -2,11 +2,6 @@
 
 いろんな OSS を Docker で試したときのメモ
 
-## Metabase
-
-- https://www.metabase.com/
-- https://github.com/metabase/metabase
-
 ## dependency-track
 
 - https://github.com/DependencyTrack/dependency-track
@@ -20,6 +15,16 @@
 
 - https://devlake.apache.org/
 - https://github.com/apache/incubator-devlake
+
+## Metabase
+
+- https://www.metabase.com/
+- https://github.com/metabase/metabase
+
+## NextCloud
+
+- https://nextcloud.com/
+- https://github.com/nextcloud/docker
 
 ## outline
 
