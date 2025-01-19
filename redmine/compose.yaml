@@ -1,0 +1,23 @@
+
+services:
+  redmine:
+    # 初回ユーザーパスワード admin/admin
+    image: redmine:latest
+    ports:
+      - 8080:3000
+    volumes:
+      - ./data/plugins:/usr/src/redmine/plugins
+      - ./data/themes:/usr/src/redmine/themes
+    environment:
+      REDMINE_DB_MYSQL: mysql
+      REDMINE_DB_PASSWORD: redmine
+    restart: always
+    depends_on:
+      - mysql
+
+  mysql:
+    image: mysql:lts
+    environment:
+      MYSQL_ROOT_PASSWORD: redmine
+      MYSQL_DATABASE: redmine
+    command: mysqld --character-set-server=utf8 --collation-server=utf8_unicode_ci

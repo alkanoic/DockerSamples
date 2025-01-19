@@ -26,10 +26,20 @@
 - https://nextcloud.com/
 - https://github.com/nextcloud/docker
 
+## OpenProject
+
+- https://www.openproject.org/
+- https://github.com/opf/openproject
+
 ## outline
 
 - https://www.getoutline.com/
 - https://github.com/outline/outline
+
+## Redmine
+
+- https://redmine.jp/
+- https://github.com/redmine/redmine
 
 ## wikijs
 
